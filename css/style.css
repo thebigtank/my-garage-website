@@ -1,0 +1,327 @@
+.grid-container {
+    max-width: 1500px;
+}
+
+div.parent {
+    width: 100%;
+    height: 100vh;
+    background-color: #262851;
+    position: relative;
+    overflow: hidden;
+}
+
+div.parent header {
+    padding: 40px 0px;
+    position: relative;
+    z-index: 3;
+}
+
+div.parent header a.logo {
+    font-family: merriweather;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: lowercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+div.parent header a.logo {
+    font-family: merriweather;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: lowercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+div.parent header ul.nav li {
+    float: left;
+    list-style: none;
+}
+
+div.parent header ul.nav {
+    float: right;
+}
+
+div.parent header ul.nav li {
+    float: left;
+    list-style: none;
+}
+
+div.parent header ul.navigation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    float: right;
+}
+
+div.parent header ul.navigation li {
+    margin-right: 60px;
+}
+
+div.parent header ul.navigation li a {
+    color: rgba(255, 255, 255, 0.60);
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: fira sans;
+    font-size: 14px;
+}
+
+div.parent header ul.navigation li a:hover {
+    color: #fff;
+}
+
+div.parent header ul.navigation li a:hover:after {
+    content: "";
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    margin-left: 7px;
+    border-radius: 50%;
+    background: #d71758;
+}
+
+div.parent header ul.social-icons li {
+    margin-left: 25px;
+}
+
+div.parent header ul.social-icons li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4b4c68;
+    border: 1px solid #4b4c68;
+    transition: all 250ms ease-in-out;
+}
+
+div.parent header ul.social-icons li a:hover {
+    color: #d71758;
+    background-color: #fff;
+    border: 1px solid #4b4c68;
+}
+
+div.parent header ul.social-icons li:nth-child(1) a:hover {
+    color: #ec1c24;
+}
+
+div.parent header ul.social-icons li:nth-child(2) a:hover {
+    color: #00a8f3;
+}
+
+
+
+
+
+
+
+div.parent section {
+    position: relative;
+}
+
+div.parent section span.year {
+    font-size: 55em;
+    font-weight: 600;
+    font-family: dm serif display;
+    position: absolute;
+    bottom: -190px;
+    left: 125px;
+    color: #22234a;
+}
+
+div.parent section .car-details {
+    position: relative;
+    top: 90px;
+}
+
+div.parent section .car-details h1.name {
+    font-size: 80px;
+    font-family: dm serif display;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    line-height: 100px;
+    color: #d71758;
+}
+
+div.parent section .car-details h1.name span {
+    font-size: 130px;
+    color: #fff;
+}
+
+div.parent section .car-details p.about {
+    font-size: 14px;
+    color: #fff;
+    width: 60%;
+    font-family: open sans;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+div.parent section .car-details h4.production-year {
+    font-size: 16px;
+    font-family: mada;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.50);
+    margin-bottom: 50px;
+}
+
+div.parent section .car-details h4.production-year span {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+div.parent section .car-details a.btn-discover {
+    background-color: #d71758;
+    border: 2px solid #fea500;
+    padding: 10px 10px 10px 30px;
+    border-radius: 30px;
+    font-family: mada;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+div.parent section .car-details a.btn-discover span {
+    padding-right: 5px;
+    position: relative;
+}
+
+div.parent section .car-details a.btn-discover i {
+    position: relative;
+}
+
+div.parent section .car-details a.btn-discover:after {
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.20);
+    border: 2px solid #fff;
+}
+
+div.parent section .car-details a.btn-discover:hover span {
+    animation: anim-btn-discover-text 250ms linear forwards;
+}
+
+div.parent section .car-details a.btn-discover:hover i {
+    animation: anim-btn-discover-icon 250ms linear forwards;
+}
+
+div.parent section .car-details a.btn-discover:hover:after {
+    animation: anim-btn-discover-after 250ms linear forwards;
+}
+
+
+
+@keyframes anim-btn-discover-text {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 10px;
+    }
+}
+
+@keyframes anim-btn-discover-icon {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 24px;
+        transform: scale(2, 2);
+        color: #d71758;
+    }
+}
+
+@keyframes anim-btn-discover-after {
+    from {
+        background-color: rgba(255, 255, 255, 0.20);
+    }
+
+    to {
+        background-color: #fff;
+    }
+}
+
+div.parent section .car-pic {
+    position: relative;
+    z-index: 3;
+    top: 40px;
+    right: 70px;
+    width: 1100px;
+}
+
+div.parent section .car-pic img {
+    width: 1000px;
+}
+
+div.parent section .navigate {
+    position: relative;
+    z-index: 3;
+    display: inline-flex;
+    float: right;
+}
+
+div.parent section .navigate button {
+    color: #fff;
+    font-size: 15px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #4b4c68;
+    border: 1px solid #4b4c68;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+div.parent section .navigate button:hover {
+    color: #d71758;
+    background-color: #fff;
+    border: 1px solid #4b4c68;
+}
+
+div.parent section .navigate .swiper-button-next,
+.swiper-button-prev {
+    background-image: none;
+    position: static;
+    top: 0;
+    margin-top: 0;
+    height: inherit;
+}
+
+div.parent .stripe {
+    height: 110px;
+    position: absolute;
+    background-color: #fea500;
+    bottom: 200px;
+    left: 0;
+}
+
+div.parent .one {
+    width: 120%;
+    transform: rotate(145deg);
+}
+
+div.parent .two {
+    width: 145%;
+    transform: rotate(145deg);
+}
+
+

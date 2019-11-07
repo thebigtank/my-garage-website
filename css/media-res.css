@@ -1,0 +1,100 @@
+/* Desktop Screens */
+/* Desktop Screens */
+/* Desktop Screens */
+/* Desktop Screens */
+/* Desktop Screens */
+/* Desktop Screens */
+/* Desktop Screens */
+
+@media screen and (max-width: 2560px) {
+    div#parent {
+        background-position-y: -170px;
+        background-position-x: 600px;
+    }
+}
+
+
+
+@media screen and (max-width: 1920px) {
+    div#parent {
+        background-position-y: -180px;
+        background-position-x: 230px;
+    }
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    div#parent {
+        background-position-y: -150px;
+        background-position-x: 120px;
+    }
+}
+
+
+@media screen and (max-width: 1440px) {
+    div#parent {
+        background-position-y: -150px;
+        background-position-x: 120px;
+    }
+}
+
+
+@media screen and (max-width: 1366px) {
+    div#parent section {
+        position: relative;
+        top: 80px;
+    }
+
+    div#parent footer {
+        bottom: 140px;
+    }
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    div#parent {
+        background-position-y: -117px;
+        background-position-x: 120px;
+    }
+
+    div#parent footer {
+        bottom: 140px;
+    }
+}
+
+
+/* Tablet Screens */
+/* Tablet Screens */
+/* Tablet Screens */
+/* Tablet Screens */
+/* Tablet Screens */
+/* Tablet Screens */
+
+@media screen and (max-width: 768px) {
+    div#parent {
+        background-position-x: 100px;
+    }
+
+    div#parent header {
+        padding: 30px 0px;
+    }
+
+    div#parent section {
+        top: 22px;
+    }
+
+    div#parent section .title h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    div#parent section aside {
+        top: 400px;
+    }
+
+    div#parent footer {
+        bottom: 140px;
+    }
+}
